@@ -1,41 +1,101 @@
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  font-size: 1rem;
-  margin-top:20px;
+  background-color: rgb(241, 241, 241);
 }
+
+Nav.wrapper {
+  margin: auto;
+  padding: 0 10px;
+}
+
+nav ul{
+  display:flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+nav li a { 
+  padding: 15px;
+  text-decoration: none;
+  color: #283b3a;
+  display:inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+/*need to center nav buttons centered along the logo on left*/
+li .navlinks {
+  align-items: center;
+}
+
+nav li a:hover { 
+  background-color: #283b3a;
+  color: white;
+}
+
 
 /*Homepage*/
 
+.featureimage{
+  margin: auto;
+  padding: 200px;
+  background-color: pink;
+  background-image: url(images/1x/pexels-dids-3530116.jpg);
+  background-repeat: no-repeat;
+}
+
 .compquote{
   display:flex;
-  margin: auto;
-  padding:20px;
-  background-color: pink;
+  justify-content: center;
   align-content: center;
   font-family: 'Caveat', cursive;
-  font-size: 1.5rem;
+  font-size: 3rem;
+  color: #ffdad9
 }
 #homepagebox{
     display:flex;
     flex-direction: row;
+    background-color: #ffdad9;
+    background-image: url(images/1x/green\ water.png);
+    background-repeat: no-repeat;
+    padding: 50px;
 }
+
+.snippetbox1 a{
+  text-decoration: none;
+  font-family: 'caveat', cursive;
+  font-weight: bold;
+  color: #283b3a;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: #283b3a;
+  padding: 10px;
+}
+
+.snippetbox1 a:hover{
+  background-color: #283b3a;
+  color: white;
+}
+
 .snippetbox1{
     display:flex;
     flex-direction: column;
     margin:30px;
     padding:25px;
-    background-color: pink;
+    background-color: rgb(241, 241, 241);
     align-items: center;
+    font-family: 'Poppins', sans-serif;
   }
   .snippetbox2{
     display:flex;
     flex-direction: column;
     margin:30px;
     padding:25px;
-    background-color: pink;
+    background-color: rgb(241, 241, 241);
     align-items: center;
+    font-family: 'Poppins', sans-serif;
   }
 
 /*Services Page*/
