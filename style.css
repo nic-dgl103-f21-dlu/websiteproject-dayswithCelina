@@ -1,3 +1,4 @@
+/*Navigation Properties*/
 nav {
   background-color: rgb(241, 241, 241);
 }
@@ -24,7 +25,7 @@ nav li a {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
 }
-/*need to center nav buttons centered along the logo on left*/
+
 li .navlinks {
   align-items: center;
 }
@@ -33,15 +34,18 @@ nav li a:hover {
   background-color: #283b3a;
   color: white;
 }
+/*End of Navigation*/
 
-
-/*Homepage*/
-
+/*HOMEPAGE*/
+/*Hero image and Button link*/
 .featureimage{
   margin: auto;
   padding: 200px;
   background-color: pink;
-  background-image: url(images/1x/pexels-dids-3530116.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/1x/pexels-dids-3530116.jpg); /*linear gradient code copied from https://codetheweb.blog/fullscreen-image-hero/*/
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
 }
 
@@ -50,18 +54,66 @@ nav li a:hover {
   justify-content: center;
   align-content: center;
   font-family: 'Caveat', cursive;
-  font-size: 3rem;
-  color: #ffdad9
+  font-size: 4rem;
+  font-weight: bold;
+  color: #bb6766;
+  margin-top: 0;
+  margin-bottom: 0.5em;
 }
+
+.compquote2{
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #bb6766;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+a.button {
+  display: block;
+  justify-content: center;
+  align-content: center;
+  width: 200px;
+  border: solid;
+  border-width: 2px;
+  border-color: #bb6766;
+  border-radius: 20px;
+  font-family: 'Caveat', cursive;
+  font-size: 3rem;
+  font-weight: bold;
+  color:#bb6766;
+  text-decoration: none;
+  text-align:center;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a.button:hover{
+  background-color: #bb6766;
+  color:#283b3a;
+}
+/*End of Hero image*/
+
 #homepagebox{
     display:flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     background-color: #ffdad9;
     background-image: url(images/1x/green\ water.png);
+    background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
     padding: 50px;
+    color: #283b3a
 }
-
+/*Services boxes*/
+/*See More button properties*/
 .snippetbox1 a{
   text-decoration: none;
   font-family: 'caveat', cursive;
@@ -73,11 +125,27 @@ nav li a:hover {
   border-color: #283b3a;
   padding: 10px;
 }
-
 .snippetbox1 a:hover{
   background-color: #283b3a;
   color: white;
 }
+
+.snippetbox2 a{
+  text-decoration: none;
+  font-family: 'caveat', cursive;
+  font-weight: bold;
+  color: #283b3a;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: #283b3a;
+  padding: 10px;
+}
+.snippetbox2 a:hover{
+  background-color: #283b3a;
+  color: white;
+}
+/*END of See More Button Properties*/
 
 .snippetbox1{
     display:flex;
@@ -97,9 +165,55 @@ nav li a:hover {
     align-items: center;
     font-family: 'Poppins', sans-serif;
   }
+/*END of ServicesBox*/
 
-/*Services Page*/
+/*About Box*/
+.aboutbox{
+  display:flex;
+  flex-direction: column;
+  justify-content: left;
+  margin: 0 0;
+  padding-left: 80px;
+  padding-top: 25px;
+  padding-bottom: 5px;
+  background-color: #ffdad9;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  color: #334f4e;
+}
+.aboutsnippet{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 1.5rem;
+  margin: 0;
+}
+.buttonalign{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top:10px;
+  margin-left: 10px;
+}
+.aboutbutton{
+  text-decoration: none;
+  font-family: 'caveat', cursive;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #283b3a;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: #283b3a;
+  padding: 15px;
+}
+.buttonalign a:hover{
+  background-color: #283b3a;
+  color: white;
+}
 
+/*END OF HOMEPAGE*/
+
+/*SERVICES PAGE*/
 .serviceborder1{
   display:flex;
   flex-direction: row;
@@ -123,3 +237,4 @@ nav li a:hover {
     margin:100px;
     padding: 15px;
   }
+/*END of SERVICES PAGE*/
