@@ -41,8 +41,8 @@ nav li a:hover {
 .featureimage{
   margin: auto;
   padding: 200px;
-  background-color: pink;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/1x/pexels-dids-3530116.jpg); /*linear gradient code copied from https://codetheweb.blog/fullscreen-image-hero/*/
+  background-color: #ffdad9;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(images/1x/pexels-dids-3530116.jpg); /*linear gradient code copied from https://codetheweb.blog/fullscreen-image-hero/*/
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -56,7 +56,7 @@ nav li a:hover {
   font-family: 'Caveat', cursive;
   font-size: 4rem;
   font-weight: bold;
-  color: #bb6766;
+  color: rgb(241, 241, 241);
   margin-top: 0;
   margin-bottom: 0.5em;
 }
@@ -68,7 +68,7 @@ nav li a:hover {
   font-family: 'Poppins', sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
-  color: #bb6766;
+  color: rgb(241, 241, 241);
   margin-top: 0;
   margin-bottom: 0.5em;
 }
@@ -80,12 +80,12 @@ a.button {
   width: 200px;
   border: solid;
   border-width: 2px;
-  border-color: #bb6766;
+  border-color: rgb(241, 241, 241);
   border-radius: 20px;
   font-family: 'Caveat', cursive;
   font-size: 3rem;
   font-weight: bold;
-  color:#bb6766;
+  color:rgb(241, 241, 241);
   text-decoration: none;
   text-align:center;
   padding: 10px;
@@ -94,7 +94,8 @@ a.button {
 }
 
 a.button:hover{
-  background-color: #bb6766;
+  background-color: #f5cac7;
+  border-color: #f5cac7;
   color:#283b3a;
 }
 /*End of Hero image*/
@@ -123,7 +124,7 @@ a.button:hover{
   border-width: 2px;
   border-radius: 10px;
   border-color: #283b3a;
-  padding: 10px;
+  padding: 12px;
 }
 .snippetbox1 a:hover{
   background-color: #283b3a;
@@ -139,7 +140,7 @@ a.button:hover{
   border-width: 2px;
   border-radius: 10px;
   border-color: #283b3a;
-  padding: 10px;
+  padding: 12px;
 }
 .snippetbox2 a:hover{
   background-color: #283b3a;
@@ -175,40 +176,69 @@ a.button:hover{
   margin: 0 0;
   padding-left: 80px;
   padding-top: 25px;
-  padding-bottom: 5px;
+  padding-bottom: 25px;
   background-color: #ffdad9;
   font-family: 'Poppins', sans-serif;
   font-size: 2rem;
   color: #334f4e;
 }
+.header{
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
 .aboutsnippet{
-  padding-top: 5px;
-  padding-bottom: 5px;
   font-size: 1.5rem;
   margin: 0;
 }
 .buttonalign{
   display:flex;
   flex-direction: row;
-  justify-content: space-around;
-  padding-top:10px;
-  margin-left: 10px;
+  padding-top:15px;
+  padding-bottom: 20px;
 }
 .aboutbutton{
   text-decoration: none;
   font-family: 'caveat', cursive;
   font-weight: bold;
   font-size: 1rem;
-  color: #283b3a;
+  color: white;
+  background-color: #283b3a;
   border-style: solid;
   border-width: 2px;
   border-radius: 10px;
   border-color: #283b3a;
-  padding: 15px;
+  padding: 12px;
 }
 .buttonalign a:hover{
-  background-color: #283b3a;
+  background-color: #bb6766;
+  border-color: #bb6766;
   color: white;
+}
+
+/*testimonial box*/
+.circle {
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #ffdad9;
+  margin:  0 0;
+  padding: 50px;
+}
+.testimonial {
+  display: flex;
+  width: 400px;
+  height: 400px;
+  background-color: rgb(241, 241, 241);
+  border-radius: 50%;
+}
+.testquote {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-family: 'caveat', cursive;
+  font-size: 1.5rem;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 /*END OF HOMEPAGE*/
