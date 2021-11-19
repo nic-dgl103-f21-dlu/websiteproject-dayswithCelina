@@ -217,9 +217,10 @@ a.button:hover{
 
 /*testimonial box*/
 
-.circle {
+.testimonial {
+  display: flex;
   background-color: #ffdad9;
-  margin: 0 auto;
+  margin: 0 0;
   /*
   display:flex;
   justify-content: center;
@@ -229,28 +230,44 @@ a.button:hover{
   */
 }
 
-/*
-.testimonial {
-  display: flex;
-  width: 400px;
-  height: 400px;
+
+.circle {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
   background-color: rgb(241, 241, 241);
   border-radius: 50%;
+  font-family: 'poppins', sans-serif;
+  font-size: 2rem;
+  color: #283b3a;
+  margin: 25px 80px;
+  padding: 50px 50px;
 }
-*/
+
+.cricle h4{
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  padding-top: 100px;
+}
+
 .testquote {
+  flex-direction: column;
+  align-content: center;
+  align-self: flex-start;
   background-color: #ffdad9;
   font-family: 'caveat', cursive;
   font-weight: 400;
   font-size: 1.5rem;
   color: #283b3a;
-  padding-top: 20px;
   border-left: solid;
   border-color: #bb6766;
   border-width: 5px;
-  margin-left: 200px;
-  margin-right: 200px;
+  padding: 50px 25px 50px 20px;
 }
+
 
 /*END OF HOMEPAGE*/
 
