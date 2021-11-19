@@ -216,14 +216,20 @@ a.button:hover{
 }
 
 /*testimonial box*/
+
 .circle {
+  background-color: #ffdad9;
+  margin: 0 auto;
+  /*
   display:flex;
   justify-content: center;
   align-content: center;
-  background-color: #ffdad9;
   margin:  0 0;
   padding: 50px;
+  */
 }
+
+/*
 .testimonial {
   display: flex;
   width: 400px;
@@ -231,14 +237,19 @@ a.button:hover{
   background-color: rgb(241, 241, 241);
   border-radius: 50%;
 }
+*/
 .testquote {
-  display: flex;
-  justify-content: center;
-  align-content: center;
+  background-color: #ffdad9;
   font-family: 'caveat', cursive;
+  font-weight: 400;
   font-size: 1.5rem;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  color: #283b3a;
+  padding-top: 20px;
+  border-left: solid;
+  border-color: #bb6766;
+  border-width: 5px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 /*END OF HOMEPAGE*/
