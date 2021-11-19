@@ -235,37 +235,36 @@ a.button:hover{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   background-color: rgb(241, 241, 241);
   border-radius: 50%;
-  font-family: 'poppins', sans-serif;
-  font-size: 2rem;
-  color: #283b3a;
-  margin: 25px 80px;
+  margin: 50px 50px 50px 85px;
   padding: 50px 50px;
 }
 
-.cricle h4{
+.circle h4{
   justify-content: center;
-  align-items: center;
-  margin-left: 10px;
-  padding-top: 100px;
+  color: #283b3a;
+  font-size: 2rem;
+  font-family: 'poppins', sans-serif;
+  margin: 75px auto;
 }
 
 .testquote {
   flex-direction: column;
   align-content: center;
-  align-self: flex-start;
+  align-self: center;
   background-color: #ffdad9;
   font-family: 'caveat', cursive;
   font-weight: 400;
   font-size: 1.5rem;
   color: #283b3a;
   border-left: solid;
-  border-color: #bb6766;
+  border-color: #283b3a;
   border-width: 5px;
-  padding: 50px 25px 50px 20px;
+  height: 50px;
+  padding: 30px 25px 50px 20px;
 }
 
 
