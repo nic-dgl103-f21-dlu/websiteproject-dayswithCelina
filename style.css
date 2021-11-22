@@ -226,7 +226,7 @@ a.button:hover{
   justify-content: left;
   width: 60%;
   margin: 0 0;
-  padding-top: 30px; 
+  padding-top: 80px; 
   padding-left: 100px;
   padding-bottom: 30px;
   padding-right:10px;
@@ -277,6 +277,7 @@ a.button:hover{
   width: 40%;
   height: 100%;
   background-color: #ffdad9;
+  padding-top:30px;
 }
 
 /*testimonial box*/
@@ -330,10 +331,14 @@ a.button:hover{
   background-color: #ffdad9;
 }
 
-.iframe {
-  display:flex;
+.map{
+  display: flex;
   justify-content: center;
-  align-items: center;
+  align-content: center;
+  padding-top: 100px;
+  padding-left: 80px;
+}
+.iframe {
   width:40%;
 }
 .contactbox{
