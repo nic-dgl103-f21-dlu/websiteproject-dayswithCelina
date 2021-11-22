@@ -386,3 +386,16 @@ a.button:hover{
     padding: 15px;
   }
 /*END of SERVICES PAGE*/
+
+/*FOOTER*/
+footer{
+  display: flex;
+  justify-content: center;
+  background-color: #283b3a;
+  padding: 20px;
+}
+
+footer a{
+  margin-left:15px;
+  margin-right: 15px;
+}
