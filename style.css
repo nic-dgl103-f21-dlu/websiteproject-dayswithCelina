@@ -65,13 +65,13 @@ nav a:hover {
 .dropdown-content a {
   text-decoration: none;
   display: block;
+  padding: 12px 16px;
   color: rgb(241, 241, 241);
 }
 
 .dropdown-content a:hover {
   background-color: #283b3a;
   color:rgb(241, 241, 241);
-  padding: 15px;
 }
 .dropdown:hover .dropdown-content {
   display: block;
@@ -79,7 +79,6 @@ nav a:hover {
 .dropdown:hover .dropbtn {
   background-color: #283b3a;
   color: rgb(241, 241, 241);
-  padding: 12px 16px;
 }
 
 
