@@ -265,6 +265,11 @@ a.button:hover{
   color: white;
 }
 
+.aboutimg {
+  display: flex;
+  flex-direction: column;
+}
+
 /*testimonial box*/
 .testimonial {
   display: flex;
