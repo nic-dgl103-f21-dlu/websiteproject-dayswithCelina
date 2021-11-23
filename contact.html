@@ -1,52 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Arabella Beauty Contact</title>
-    <meta charset="utf-8">
+  <title>Arabella Beauty Homepage</title>
+  <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/1x/ABLogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@300&family=Roboto:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
   <nav class="wrapper">
-    <ul>
-      <li><a href="index.html"><img src="images/1x/ABLogo.png" alt="Arabella Beauty Logo" width="100"></a></li>
-      <li><a href="about.html">About</a></li> &nbsp;
-      <li><a href="contact.html">Contact</a></li> &nbsp;
-      <li><a href="services.html">Services</a></li> &nbsp;
-      <li><a href="service1-2.html">Wax & Threading</a></li> &nbsp;
-      <li><a href="service3-5.html">Lifts, Tints & Lamination</a></li>
-      <li><a href="https://www.vagaro.com/us02/jackiebaulcomb">BOOK NOW</a></li><!--Button links to booking site-->
-    </ul>
-</nav>
-    <main>
-      <!--Interactive google map here-->
-      <h2>Contact Us </h2>
-      <article>
-        <h3>Address</h3>
-          <p>16 ½ Fan Tan Alley, Victoria BC, V8V 1W3</p>
-        <h3>Phone Number</h3>
-          <p>778-679-4094</p>
-        <h3>Hours</h3>
-          <ul>
-            <li>Monday: 12:00 pm- 5:00 pm</li>
-            <li>Tuesday: 10:00 am - 6:00 pm</li>
-            <li>Wednesday: 10:00 am - 6:00 pm</li>
-            <li>Thursday: 10:00 am - 6:00 pm</li>
-            <li>Friday: 10:00 am - 6:00 pm</li>
-            <li>Saturday: 12:00 pm – 5:00 pm</li>
-            <li>Sunday: Closed</li>
-          </ul>  
-      </article>
-      <aside><!--GetinTouch form will be beside googlemap-->
-          <h2>Get In Touch</h2>
+    <div class="navlinks"><a href="index.html"><img src="images/1x/ABLogocrop.png" alt="Arabella Beauty Logo" width="50" height="50"></a></div>
+    <div class="navlinks"><a href="about.html">About</a></div> 
+    <div class="navlinks"><a href="contact.html">Contact</a></div>
+      <div class="dropdown">
+        <div class="dropbtn"><a href="services.html">Services</a></div>
+          <div class="dropdown-content">
+            <a href="service1-2.html">Wax & Threading</a>
+            <a href="service3-5.html">Lifts, Tints & Lamination</a>
+          </div>
+      </div>
+    <div class="navlinks"><a href="https://www.vagaro.com/us02/jackiebaulcomb">BOOK NOW</a></div><!--Button links to booking site-->
+  </nav>
+
+<main>
+  <div class="ctc-info">
+    <article class="ctc-content">
+      <h2>Contact Us:</h2>
+      <ul class="ctc-ctc">
+        <li><b>Address:</b></li>
+          <li>16 ½ Fan Tan Alley, Victoria BC, V8V 1W3</li>
+        <li><b>Phone Number:</b></li>
+          <li>778-679-4094</li>
+        </ul> 
+        <table><!--Used Table for salon hours-->          
+          <caption> Hours: </caption>
+          <tbody>
+            <tr>
+              <td>Monday:</td>
+              <td>12:00 pm - 5:00 pm</td>
+            </tr>
+            <tr>
+              <td>Tuesday:</td>
+              <td>10:00 am - 6:00 pm</td>
+            </tr>
+            <tr>
+              <td>Wednesday:</td>
+              <td>10:00 am - 6:00 pm</td>
+            </tr>
+            <tr>
+              <td>Thursday:</td>
+              <td>10:00 am - 6:00 pm</td>
+            </tr>
+            <tr>
+              <td>Friday:</td>
+              <td>10:00 am - 6:00 pm</td>
+            </tr>
+            <tr>
+              <td>Saturday:</td>
+              <td>12:00 pm – 5:00 pm</td>
+            </tr>
+            <tr>
+              <td>Sunday:</td>
+              <td><i> Closed </i></td>
+            </tr>
+          </tbody>
+       
+        </table>
+      <div class="map2">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d165.4640519842318!2d-123.36804796454177!3d48.42918563183682!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548f748361ce044d%3A0x46bc6c22a3fabad3!2sArabella%20Beauty!5e0!3m2!1sen!2sus!4v1637562067508!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>     <!--Interactive google map here-->
+    </article>
+    <aside class="contact-form">
+      <h2>GET IN TOUCH</h2>
+      <div class="wrapper-form">
+        <h4>Contact Form</h4>
+        <form method="post" action="mailto:hello@arabellabeauty.com">
+          <label for="fname">First and Last Name</label>
+          <input type="text" id="fname" name="firstandlastname" placeholder="Ex: Sarah Johnson">
+      
+          <label for="email">Email <span class="label-required">* (required)</span></label>
+          <input type="email" id="email" name="email" placeholder="Ex: sarah@gmail.com" required>
+      
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="WHAT SERVICE ARE YOU INTERESTED IN?" style="height:200px"></textarea>
+      
+          <div class="wrapper-button">
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
           <!--form goes here-->
-          <h3>Cancellation Policy</h3><!--will live under form-->
-            <p>We kindly ask that 24-hour notice is given if cancelling or rescheduling an appointment. That way we can better accommodate other clients that are trying to get in for their services. Any no-show appointments will be charged for 50% of their scheduled services.</p>
-      </aside>
+        <h3>Cancellation Policy</h3><!--will live under form-->
+          <p>We kindly ask that 24-hour notice is given if cancelling or rescheduling an appointment. That way we can better accommodate other clients that are trying to get in for their services. Any no-show appointments will be charged for 50% of their scheduled services.</p>
+    </aside>
+  </div>
       <!--Gallery of images here-->
-    </main>
+</main>
+<footer>
+  <a href="https://www.facebook.com/Arabellabeautyvictoria/"><i class="fa fa-facebook" style="font-size:36px; color:rgb(241, 241, 241)"></i></a><!--facebook icon copied from https://fontawesome.com/v4.7/cheatsheet/-->
+  <a href="https://www.instagram.com/arabellabeautyvictoria/"><i class="fa fa-instagram" style="font-size:36px; color:rgb(241, 241, 241)"></i></a>
+  <!--instagram icon copied from https://fontawesome.com/v4.7/cheatsheet/ -->
+</footer>
 </body>
 </html>

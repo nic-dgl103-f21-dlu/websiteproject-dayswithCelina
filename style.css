@@ -425,6 +425,141 @@ a.button:hover{
 .abt-img{
   padding: 170px 80px;
 }
+/*END of ABOUT PAGE*/
+
+/*START of CONTACT PAGE*/
+.ctc-info{
+  display: flex;
+  background: #ffdad9;
+  color: #283b3a;
+  font-family: 'Poppins', sans-serif;
+}
+.ctc-content{
+  margin-left: 80px;
+  padding-top: 100px;
+}
+.ctc-ctc{
+  font-size: 1.2rem;
+  list-style-type: none;
+}
+.ctc-ctc li{
+  padding:10px;
+}
+
+table caption{
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px 0;
+}
+td{
+  padding: 10px 15px;
+  font-weight: bold;
+}
+tr:nth-child(even) {
+  background-color: #f5cac7;
+}
+.map2{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 50px;
+  padding-left: 30px;
+}
+.contact-form{
+  margin: 100px 80px;
+}
+/*contact form*/
+aside h3{
+  font-size: 2rem;
+  color: #283b3a;
+  font-family: 'Poppins', sans-serif;
+}
+aside h4{
+  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+  color:#283b3a;
+}
+input[type="reset"] {
+  color: #283b3a;
+  padding: 12px 20px;
+  border: 1px solid #283b3a;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'caveat', cursive;
+  font-size: 2rem;
+}
+
+input[type="reset"]:hover {
+  background-color: #d1efe3;
+}
+
+input[type="submit"] {
+  background-color: #283b3a;
+  color: white;
+  padding: 12px 20px;
+  margin-right: 10px;
+  border: 1px solid #283b3a;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'caveat', cursive;
+  font-size: 2rem;
+}
+
+input[type="submit"]:hover {
+  background-color: #e5959d;
+  border-color: #e5959d;
+  color: #283b3a;
+}
+input,
+  select,
+  textarea {
+    font-size: 1em;
+  }
+  
+  input[type="text"],
+  select,
+  textarea {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type="email"] {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  textarea {
+    font-family: sans-serif;
+  }
+  
+  .label-required {
+    font-size: 0.8rem;
+    color: red;
+  }
+  .wrapper-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .wrapper-button {
+    display: flex;
+    justify-content: space-between;
+  }
+/*end of contact form*/
 /*SERVICES PAGE*/
 .serviceborder1{
   display:flex;
