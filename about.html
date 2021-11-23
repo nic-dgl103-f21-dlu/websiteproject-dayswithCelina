@@ -1,31 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Arabella Beauty About</title>
+  <title>Arabella Beauty Homepage</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/1x/ABLogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@300&family=Roboto:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="wrapper">
-        <ul>
-          <li><a href="index.html"><img src="images/1x/ABLogo.png" alt="Arabella Beauty Logo" width="100"></a></li>
-          <li><a href="about.html">About</a></li> &nbsp;
-          <li><a href="contact.html">Contact</a></li> &nbsp;
-          <li><a href="services.html">Services</a></li> &nbsp;
-          <li><a href="service1-2.html">Wax & Threading</a></li> &nbsp;
-          <li><a href="service3-5.html">Lifts, Tints & Lamination</a></li>
-          <li><a href="https://www.vagaro.com/us02/jackiebaulcomb">BOOK NOW</a></li><!--Button links to booking site-->
-        </ul>
-    </nav>
+  <nav class="wrapper">
+    <div class="navlinks"><a href="index.html"><img src="images/1x/ABLogocrop.png" alt="Arabella Beauty Logo" width="50" height="50"></a></div>
+    <div class="navlinks"><a href="about.html">About</a></div> 
+    <div class="navlinks"><a href="contact.html">Contact</a></div>
+      <div class="dropdown">
+        <div class="dropbtn"><a href="services.html">Services</a></div>
+          <div class="dropdown-content">
+            <a href="service1-2.html">Wax & Threading</a>
+            <a href="service3-5.html">Lifts, Tints & Lamination</a>
+          </div>
+      </div>
+    <div class="navlinks"><a href="https://www.vagaro.com/us02/jackiebaulcomb">BOOK NOW</a></div><!--Button links to booking site-->
+  </nav>
+
 <main>
-    <h2>About Us</h2>
-      <p>Jackie Baulcomb, the founder of Arabella Beauty, began her career in esthetics over a decade ago.  After graduating from Blanche Macdonald, Jackie gained invaluable experience from amazing mentors and began to build a fabulous community of clients.  Eventually making her way to Victoria BC, Jackie has settled in the beautiful southern point of the island and has made it her home.  Through her years of experience and expertise, Jackie took the next professional step and started her business Arabella Beauty!  Arabella Beauty is based out of an ethereal and glamorous salon space where she works closely with local-female owned business Priestess Beauty.  Together, they’re located at 16 ½ Fan Tan Alley in the heart of Chinatown and make the ultimate girl gang.  Jackie is a fierce Taurus, known for her attention to detail and obsession with perfection.  Jackie personalizes services according to her clients and is constantly learning new techniques to stay ahead of industry standards.  Jackie is passionate about allowing her clients to look and feel their absolute best and will ensure your natural beauty shines!</p>
-        <a href="https://www.vagaro.com/us02/jackiebaulcomb">BOOK NOW</a><!--Button links to booking site-->
+  <div class="abt-section">
+    <article class="abt-text">
+      <h2 class="aboutus">About Us</h2>
+        <p><b>J</b>ackie Baulcomb, the founder of Arabella Beauty, began her career in esthetics over a decade ago.  After graduating from Blanche Macdonald, Jackie gained invaluable experience from amazing mentors and began to build a fabulous community of clients. <br><br> Eventually making her way to <i>Victoria BC</i>, Jackie has settled in the beautiful southern point of the island and has made it her home. Through her years of experience and expertise, Jackie took the next professional step and started her business <b>Arabella Beauty</b>!<br><br>  Arabella Beauty is based out of an ethereal and glamorous salon space where she works closely with local-female owned business Priestess Beauty.  Together, they’re located at 16 ½ Fan Tan Alley in the heart of Chinatown and make the ultimate girl gang. <br><br> Jackie is a fierce Taurus, known for her attention to detail and obsession with perfection.  Jackie personalizes services according to her clients and is constantly learning new techniques to stay ahead of industry standards.  <br><br><b>Jackie is passionate about allowing her clients to look and feel their absolute best</b> and will ensure your natural beauty shines!</p>
+        <div class="buttonalign3">
+          <a href="https://www.vagaro.com/us02/jackiebaulcomb" class="aboutbutton">BOOK NOW</a><!--Button links to booking site-->
+        </div>
+    </article>
+    <aside class="abt-img">
+        <img src="images/1x/AB-Jsidesmile.jpg" alt="Jackie, founder of Arabella Beauty" width="300" height="450">
         <!--Must input large professional Image of Jackie here-->
+    </aside>
+  </div>
 </main>
+<footer>
+  <a href="https://www.facebook.com/Arabellabeautyvictoria/"><i class="fa fa-facebook" style="font-size:36px; color:rgb(241, 241, 241)"></i></a><!--facebook icon copied from https://fontawesome.com/v4.7/cheatsheet/-->
+  <a href="https://www.instagram.com/arabellabeautyvictoria/"><i class="fa fa-instagram" style="font-size:36px; color:rgb(241, 241, 241)"></i></a>
+  <!--instagram icon copied from https://fontawesome.com/v4.7/cheatsheet/ -->
+</footer>
 </body>
 </html>

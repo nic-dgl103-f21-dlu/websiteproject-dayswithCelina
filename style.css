@@ -398,6 +398,33 @@ a.button:hover{
 
 /*END OF HOMEPAGE*/
 
+/*ABOUT PAGE*/
+.abt-section{
+  display:flex;
+  flex-direction: row;
+  background-color: #ffdad9;
+}
+.abt-text{
+  font-family: 'Poppins', sans-serif;
+  color: #283b3a;
+  font-size: 1.5rem;
+  padding: 50px 80px;
+}
+.abt-text p{
+  font-size: 1rem;
+}
+.buttonalign3{
+  padding-top:20px;
+  padding-bottom: 20px;
+}
+.buttonalign3 a:hover{
+  background-color: #bb6766;
+  border-color: #bb6766;
+  color: white;
+}
+.abt-img{
+  padding: 170px 80px;
+}
 /*SERVICES PAGE*/
 .serviceborder1{
   display:flex;
