@@ -434,46 +434,75 @@ a.button:hover{
   color: #283b3a;
   font-family: 'Poppins', sans-serif;
 }
-.ctc-content{
-  margin-left: 80px;
-  padding-top: 100px;
-}
-.ctc-ctc{
-  font-size: 1.2rem;
-  list-style-type: none;
-}
-.ctc-ctc li{
-  padding:10px;
+.circle2 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(241, 241, 241);
+  border-radius: 50%;
+  margin: 50px 130px;
+  padding: 50px 50px;
 }
 
-table caption{
-  font-size: 1.5rem;
+.circle2 h4{
+  justify-content: center;
+  color: #283b3a;
+  font-size: 2rem;
+  font-family: 'poppins', sans-serif;
+  margin: 75px auto;
+}
+.ctc-content{
+  padding: 100px 10px;
+}
+.ctc-ctc{
+  font-size: 1.3rem;
+  list-style-type: none;
+  text-align: center;
   font-weight: bold;
-  text-align: left;
-  padding: 10px 0;
+  padding-top: 30px;
+}
+.ctc-ctc li{
+  padding-bottom: 10px;
+}
+table{
+  border-collapse: collapse;
+  width: 550px;
+  margin: 0 0;
+}
+table caption{
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 80px 0px 30px;
 }
 td{
-  padding: 10px 15px;
+  text-align:center;
+  padding: 20px 25px;
   font-weight: bold;
+  font-size: 1rem;
 }
 tr:nth-child(even) {
   background-color: #f5cac7;
 }
 .map2{
+  background-color: #ffdad9;
   display: flex;
   justify-content: center;
   align-content: center;
   padding-top: 50px;
-  padding-left: 30px;
+  padding-bottom: 50px;
 }
 .contact-form{
-  margin: 100px 80px;
+  margin: 100px 100px;
 }
 /*contact form*/
 aside h3{
   font-size: 2rem;
   color: #283b3a;
   font-family: 'Poppins', sans-serif;
+  text-align: center;
 }
 aside h4{
   font-size: 1.5rem;
@@ -550,7 +579,7 @@ input,
   .wrapper-form {
     border-radius: 5px;
     background-color: #f2f2f2;
-    padding: 40px;
+    padding: 20px 40px;
     max-width: 800px;
     margin: 0 auto;
   }
@@ -558,6 +587,12 @@ input,
   .wrapper-button {
     display: flex;
     justify-content: space-between;
+  }
+  .policy {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 0;
   }
 /*end of contact form*/
 /*SERVICES PAGE*/
