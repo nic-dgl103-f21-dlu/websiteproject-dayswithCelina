@@ -399,6 +399,27 @@ a.button:hover{
 /*END OF HOMEPAGE*/
 
 /*ABOUT PAGE*/
+.featureimage2{
+  margin: auto;
+  padding: 80px;
+  background-color: #ffdad9;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(images/1x/pexels-dids-3530116.jpg); /*linear gradient code copied from https://codetheweb.blog/fullscreen-image-hero/*/
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.compquote22{
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  font-family: 'Caveat', cursive;
+  font-size: 4rem;
+  font-weight: bold;
+  color: rgb(241, 241, 241);
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
 .abt-section{
   display:flex;
   flex-direction: row;
@@ -428,6 +449,27 @@ a.button:hover{
 /*END of ABOUT PAGE*/
 
 /*START of CONTACT PAGE*/
+.featureimage3{
+  margin: auto;
+  padding: 80px;
+  background-color: #ffdad9;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(images/1x/pexels-dids-3530116.jpg); /*linear gradient code copied from https://codetheweb.blog/fullscreen-image-hero/*/
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.compquote3{
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  font-family: 'Caveat', cursive;
+  font-size: 4rem;
+  font-weight: bold;
+  color: rgb(241, 241, 241);
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
 .ctc-info{
   display: flex;
   background: #ffdad9;
@@ -661,6 +703,29 @@ input,
 }
 
 /*END of SERVICES PAGE*/
+
+/*START of SERVICES 1-1*/
+.featureimage5{
+  margin: auto;
+  padding: 80px;
+  background-color: #ffdad9;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(images/1x/pexels-dids-3530116.jpg); /*linear gradient code copied from https://codetheweb.blog/fullscreen-image-hero/*/
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.compquote5{
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  font-family: 'Caveat', cursive;
+  font-size: 4rem;
+  font-weight: bold;
+  color: rgb(241, 241, 241);
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
 
 /*FOOTER*/
 footer{
