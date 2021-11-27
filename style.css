@@ -493,7 +493,9 @@ a.button:hover{
   color: #283b3a;
   font-size: 2rem;
   font-family: 'poppins', sans-serif;
-  margin: 75px auto;
+  align-items: center;
+  text-align: center;
+  margin: 50px auto;
 }
 .ctc-content{
   padding: 100px 10px;
@@ -638,6 +640,27 @@ input,
   }
 /*end of contact form*/
 /*SERVICES PAGE*/
+.featureimage4{
+  margin: auto;
+  padding: 80px;
+  background-color: #ffdad9;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(images/1x/pexels-dids-3530116.jpg); /*linear gradient code copied from https://codetheweb.blog/fullscreen-image-hero/*/
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.compquote4{
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  font-family: 'Caveat', cursive;
+  font-size: 4rem;
+  font-weight: bold;
+  color: rgb(241, 241, 241);
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
 .snippetbox3{
   display:flex;
   flex-direction: column;
@@ -722,6 +745,59 @@ input,
   font-family: 'Caveat', cursive;
   font-size: 4rem;
   font-weight: bold;
+  color: rgb(241, 241, 241);
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+.serv1{
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #ffdad9;
+  margin: 0 0;
+}
+.wax{
+  width: 70%;
+  margin: 0 0;
+  padding-top: 50px; 
+  padding-left: 20px;
+  padding-bottom: 30px;
+  padding-right:130px;
+  background-color: #ffdad9;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  color: #334f4e;
+}
+.waximg{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+  background-color: #ffdad9;
+  padding-top:50px;
+  padding-left: 50px;
+}
+/*END of SERVICES 1-1*/
+/*START OF SERVICES 3-5*/
+.featureimage6{
+  margin: auto;
+  padding: 80px;
+  background-color: #ffdad9;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(images/1x/pexels-dids-3530116.jpg); /*linear gradient code copied from https://codetheweb.blog/fullscreen-image-hero/*/
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.compquote6{
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  font-family: 'caveat', cursive;
+  /*font-family: 'Caveat', cursive;*/
+  font-size: 4rem;
+  font-weight: 200px;
   color: rgb(241, 241, 241);
   margin-top: 0;
   margin-bottom: 0.5em;
