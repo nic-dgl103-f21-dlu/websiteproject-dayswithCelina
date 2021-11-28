@@ -749,6 +749,11 @@ input,
   margin-top: 0;
   margin-bottom: 0.5em;
 }
+.src{
+  font-family: 'Poppins', sans-serif;
+  color: #283b3a;
+  background-color: #ffdad9;
+}
 .serv1{
   display: flex;
   flex-direction: row-reverse;
@@ -777,6 +782,48 @@ input,
   background-color: #ffdad9;
   padding-top:50px;
   padding-left: 50px;
+}
+.wax-pl{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffdad9;
+  color: #283b3a;
+  font-family: 'poppins', sans-serif;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 0;
+}
+.wax-table{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 30px 100px;
+}
+table caption{
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 80px 0px 30px;
+}
+.wax-row{
+  text-align: center;
+  align-content: center;
+}
+.wax-data{
+  margin:50px 0;
+  padding:20px 100px 20px 100px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: 'poppins', sans-serif ;
+}
+.wax-price{
+margin: 0 50px 0 0;
+}
+tr:nth-child(even) {
+  background-color: #f5cac7;
 }
 /*END of SERVICES 1-1*/
 /*START OF SERVICES 3-5*/
