@@ -7,13 +7,18 @@ Nav.wrapper {
   margin: auto;
   padding: 0 10px;
   display:flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   list-style-type: none;
   margin: 0;
   padding: 0;
   align-items: center;
 }
-
+.navlogo{
+  display: block;
+  margin-left: 3%;
+  margin-right: 50%;
+  flex: 3 3 auto;
+}
 nav a { 
   padding: 15px;
   text-decoration: none;
@@ -25,8 +30,8 @@ nav a {
   cursor: pointer;
 }
 
-li .navlinks{
-  align-items: center;
+.navlinks{
+  justify-content: flex-end;
 }
 
 nav a:hover { 
@@ -969,4 +974,20 @@ footer p{
 @media only screen and (max-width: 600px) {
     main {width: 100%;
   }
+  /*.wrapper .toggle{
+    position: absolute;
+    cursor: pointer;
+    padding-left: 5%;
+  }
+  .navinner{
+    width:100vw;
+    margin: 0 3% 0 0;
+    flex: 2 2 auto;
+    list-style-type: none;
+    padding: 5%;
+    flex-direction: column;
+    display: block;
+    background-color: rgb(241, 241, 241);
+    background-size: 100vw;
+  }*/
 }
