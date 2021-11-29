@@ -955,7 +955,7 @@ footer a{
 }
 footer p{
   flex-direction: row;
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   text-align: center;
   color:rgb(241, 241, 241);
   font-family: 'poppins', sans-serif;
