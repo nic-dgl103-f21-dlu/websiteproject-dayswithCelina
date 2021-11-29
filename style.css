@@ -130,7 +130,7 @@ Dropdown styled on "Services" Button hover*/
   margin-bottom: 0.5em;
 }
 
-a.button {
+a.button {/*Very large bold book now button - links to booking site*/
   display: block;
   justify-content: center;
   align-content: center;
@@ -972,27 +972,10 @@ footer p{
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
     main nav .featureimage {width: 100vw;
-      background-image: 50%;
   }
-    .homepagebox .about{
+    .homepagebox .about .testimonial .contact .contactbox{
       display:flex;
       flex-direction: column;
       width: 100vw;
     }
-  /*.wrapper .toggle{
-    position: absolute;
-    cursor: pointer;
-    padding-left: 5%;
-  }
-  .navinner{
-    width:100vw;
-    margin: 0 3% 0 0;
-    flex: 2 2 auto;
-    list-style-type: none;
-    padding: 5%;
-    flex-direction: column;
-    display: block;
-    background-color: rgb(241, 241, 241);
-    background-size: 100vw;
-  }*/
 }
