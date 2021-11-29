@@ -966,9 +966,7 @@ footer p{
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  .homepagebox{
-    display: flex;
-    flex-direction: column;
+@media only screen and (max-width: 600px) {
+    main {width: 100%;
   }
 }
